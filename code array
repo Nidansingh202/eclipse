@@ -1,0 +1,20 @@
+Public class ArrayUse {
+
+	public static void main(String args[]) {
+		// TODO Auto-generated method stub
+		   //  int n =10;
+			//int[]arr = new int [n];
+			//arr[0] = 15;
+			//arr[1] = 10;
+			//System.out.println(arr[0]);
+			//System.out.println(arr[5]);
+		int[] marks = new int[3];	
+		     marks[0] = 77;
+			 marks[1] = 66;
+			 marks[2] = 55;
+			for (int i=0 ; i<3;i++) {
+				System.out.println(marks[i]);
+			}
+			}
+					
+	}
