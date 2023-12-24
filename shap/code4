@@ -1,0 +1,38 @@
+package classes_And_object;
+
+import classes_And_object.Pen.Student;
+public class Nidan {
+
+	
+	String color;
+    String type ; //ballpoint ; gel
+	private int age;
+	private String name;
+
+    public void write() {
+        System.out.println("write something");
+    }
+    public void printColor() {
+    	System.out.println(this.color);
+    	}
+ 
+  public class nidan{
+	   String name ;
+	   int age ;
+	   
+	   public void printnfo() {
+		   System.out.println(this.name);
+		   System.out.println(this.age);
+	   }
+   }
+   
+   public static void main(String args[]){
+	   Nidan s1= new Nidan();
+   	s1.name="rinkiy";
+   	s1.age=21;
+   	
+   	s1.printColor();
+       
+   }
+}
+
